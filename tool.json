@@ -1,0 +1,3 @@
+{
+    "check_cmd": "python src/check.py"
+}

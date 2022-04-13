@@ -1,0 +1,1170 @@
+{
+    "dependencies": [
+        {
+            "name": "ch.qos.logback:logback-access:1.2.3",
+            "file": "logback-access-1.2.3.jar",
+            "licenses": [
+                {
+                    "name": "Eclipse Public License - v 1.0",
+                    "url": "http://www.eclipse.org/legal/epl-v10.html"
+                },
+                {
+                    "name": "GNU Lesser General Public License",
+                    "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+                }
+            ]
+        },
+        {
+            "name": "ch.qos.logback:logback-classic:1.2.3",
+            "file": "logback-classic-1.2.3.jar",
+            "licenses": [
+                {
+                    "name": "Eclipse Public License - v 1.0",
+                    "url": "http://www.eclipse.org/legal/epl-v10.html"
+                },
+                {
+                    "name": "GNU Lesser General Public License",
+                    "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+                }
+            ]
+        },
+        {
+            "name": "ch.qos.logback:logback-core:1.2.3",
+            "file": "logback-core-1.2.3.jar",
+            "licenses": [
+                {
+                    "name": "Eclipse Public License - v 1.0",
+                    "url": "http://www.eclipse.org/legal/epl-v10.html"
+                },
+                {
+                    "name": "GNU Lesser General Public License",
+                    "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+                }
+            ]
+        },
+        {
+            "name": "com.auth0:java-jwt:3.10.3",
+            "file": "java-jwt-3.10.3.jar",
+            "licenses": [
+                {
+                    "name": "The MIT License (MIT)",
+                    "url": "https://raw.githubusercontent.com/auth0/java-jwt/master/LICENSE"
+                }
+            ]
+        },
+        {
+            "name": "com.carrotsearch:hppc:0.8.1",
+            "file": "hppc-0.8.1.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.damnhandy:handy-uri-templates:2.1.8",
+            "file": "handy-uri-templates-2.1.8.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.core:jackson-annotations:2.11.4",
+            "file": "jackson-annotations-2.11.4.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.core:jackson-core:2.11.4",
+            "file": "jackson-core-2.11.4.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.core:jackson-databind:2.11.4",
+            "file": "jackson-databind-2.11.4.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.11.4",
+            "file": "jackson-dataformat-cbor-2.11.4.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.11.4",
+            "file": "jackson-dataformat-smile-2.11.4.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.11.4",
+            "file": "jackson-dataformat-yaml-2.11.4.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.woodstox:woodstox-core:5.0.3",
+            "file": "woodstox-core-5.0.3.jar",
+            "licenses": [
+                {
+                    "name": "The Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.github.everit-org.json-schema:org.everit.json.schema:1.12.2",
+            "file": "org.everit.json.schema-1.12.2.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.github.scribejava:scribejava-apis:6.9.0",
+            "file": "scribejava-apis-6.9.0.jar",
+            "licenses": [
+                {
+                    "name": "MIT",
+                    "url": "https://github.com/scribejava/scribejava/blob/master/LICENSE.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.github.scribejava:scribejava-core:6.9.0",
+            "file": "scribejava-core-6.9.0.jar",
+            "licenses": [
+                {
+                    "name": "MIT",
+                    "url": "https://github.com/scribejava/scribejava/blob/master/LICENSE.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.github.spullara.mustache.java:compiler:0.9.6",
+            "file": "compiler-0.9.6.jar",
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+                }
+            ]
+        },
+        {
+            "name": "com.google.code.findbugs:jsr305:3.0.2",
+            "file": "jsr305-3.0.2.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.google.code.gson:gson:2.8.6",
+            "file": "gson-2.8.6.jar",
+            "licenses": [
+                {
+                    "name": "Apache 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.google.guava:failureaccess:1.0.1",
+            "file": "failureaccess-1.0.1.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.google.guava:guava:28.2-jre",
+            "file": "guava-28.2-jre.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.google.protobuf:protobuf-java:3.19.3",
+            "file": "protobuf-java-3.19.3.jar",
+            "licenses": [
+                {
+                    "name": "3-Clause BSD License",
+                    "url": "https://opensource.org/licenses/BSD-3-Clause"
+                }
+            ]
+        },
+        {
+            "name": "com.google.re2j:re2j:1.3",
+            "file": "re2j-1.3.jar",
+            "licenses": [
+                {
+                    "name": "Go License",
+                    "url": "https://golang.org/LICENSE"
+                }
+            ]
+        },
+        {
+            "name": "com.googlecode.java-diff-utils:diffutils:1.2",
+            "file": "diffutils-1.2.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.h2database:h2:1.4.199",
+            "file": "h2-1.4.199.jar",
+            "licenses": [
+                {
+                    "name": "MPL 2.0 or EPL 1.0",
+                    "url": "http://h2database.com/html/license.html"
+                }
+            ]
+        },
+        {
+            "name": "com.hazelcast:hazelcast:4.2",
+            "file": "hazelcast-4.2.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.microsoft.sqlserver:mssql-jdbc:9.2.0.jre11",
+            "file": "mssql-jdbc-9.2.0.jre11.jar",
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "http://www.opensource.org/licenses/mit-license.php"
+                }
+            ]
+        },
+        {
+            "name": "com.onelogin:java-saml-core:2.5.0",
+            "file": "java-saml-core-2.5.0.jar",
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://opensource.org/licenses/MIT"
+                }
+            ]
+        },
+        {
+            "name": "com.onelogin:java-saml:2.5.0",
+            "file": "java-saml-2.5.0.jar",
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://opensource.org/licenses/MIT"
+                }
+            ]
+        },
+        {
+            "name": "com.squareup.okhttp3:okhttp:4.9.0",
+            "file": "okhttp-4.9.0.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.squareup.okio:okio:2.8.0",
+            "file": "okio-jvm-2.8.0.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "com.sun.mail:javax.mail:1.5.6",
+            "file": "javax.mail-1.5.6.jar",
+            "licenses": [
+                {
+                    "name": "CDDL/GPLv2+CE",
+                    "url": "https://glassfish.java.net/public/CDDL+GPL_1_1.html"
+                }
+            ]
+        },
+        {
+            "name": "com.tdunning:t-digest:3.2",
+            "file": "t-digest-3.2.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "commons-codec:commons-codec:1.14",
+            "file": "commons-codec-1.14.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "commons-collections:commons-collections:3.2.2",
+            "file": "commons-collections-3.2.2.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "commons-digester:commons-digester:1.8.1",
+            "file": "commons-digester-1.8.1.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "commons-io:commons-io:2.8.0",
+            "file": "commons-io-2.8.0.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "commons-lang:commons-lang:2.6",
+            "file": "commons-lang-2.6.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "commons-logging:commons-logging:1.2",
+            "file": "commons-logging-1.2.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "commons-validator:commons-validator:1.6",
+            "file": "commons-validator-1.6.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "io.jsonwebtoken:jjwt-api:0.11.2",
+            "file": "jjwt-api-0.11.2.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+                }
+            ]
+        },
+        {
+            "name": "io.jsonwebtoken:jjwt-impl:0.11.2",
+            "file": "jjwt-impl-0.11.2.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+                }
+            ]
+        },
+        {
+            "name": "io.jsonwebtoken:jjwt-jackson:0.11.2",
+            "file": "jjwt-jackson-0.11.2.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+                }
+            ]
+        },
+        {
+            "name": "javax.activation:activation:1.1",
+            "file": "activation-1.1.jar",
+            "licenses": [
+                {
+                    "name": "Common Development and Distribution License (CDDL) v1.0",
+                    "url": "https://glassfish.dev.java.net/public/CDDLv1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "joda-time:joda-time:2.10.10",
+            "file": "joda-time-2.10.10.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "net.java.dev.jna:jna:5.10.0",
+            "file": "jna-5.10.0.jar",
+            "licenses": [
+                {
+                    "name": "LGPL-2.1-or-later",
+                    "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1"
+                },
+                {
+                    "name": "Apache-2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "net.jpountz.lz4:lz4:1.3.0",
+            "file": "lz4-1.3.0.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "net.sf.jopt-simple:jopt-simple:5.0.2",
+            "file": "jopt-simple-5.0.2.jar",
+            "licenses": [
+                {
+                    "name": "The MIT License",
+                    "url": "http://www.opensource.org/licenses/mit-license.php"
+                }
+            ]
+        },
+        {
+            "name": "net.sf.trove4j:core:3.1.0",
+            "file": "core-3.1.0.jar",
+            "licenses": [
+                {
+                    "name": "GNU Lesser General Public License 2.1",
+                    "url": "http://www.gnu.org/licenses/lgpl-2.1.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons:commons-csv:1.7",
+            "file": "commons-csv-1.7.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons:commons-dbcp2:2.7.0",
+            "file": "commons-dbcp2-2.7.0.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons:commons-email:1.5",
+            "file": "commons-email-1.5.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons:commons-lang3:3.4",
+            "file": "commons-lang3-3.4.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons:commons-pool2:2.7.0",
+            "file": "commons-pool2-2.7.0.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents:httpasyncclient:4.1.4",
+            "file": "httpasyncclient-4.1.4.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents:httpclient:4.5.13",
+            "file": "httpclient-4.5.13.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents:httpcore-nio:4.4.12",
+            "file": "httpcore-nio-4.4.12.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents:httpcore:4.4.13",
+            "file": "httpcore-4.4.13.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.logging.log4j:log4j-api:2.17.0",
+            "file": "log4j-api-2.17.0.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.logging.log4j:log4j-to-slf4j:2.17.0",
+            "file": "log4j-to-slf4j-2.17.0.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-analyzers-common:8.10.1",
+            "file": "lucene-analyzers-common-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-backward-codecs:8.10.1",
+            "file": "lucene-backward-codecs-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-core:8.10.1",
+            "file": "lucene-core-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-grouping:8.10.1",
+            "file": "lucene-grouping-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-highlighter:8.10.1",
+            "file": "lucene-highlighter-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-join:8.10.1",
+            "file": "lucene-join-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-memory:8.10.1",
+            "file": "lucene-memory-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-misc:8.10.1",
+            "file": "lucene-misc-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-queries:8.10.1",
+            "file": "lucene-queries-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-queryparser:8.10.1",
+            "file": "lucene-queryparser-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-sandbox:8.10.1",
+            "file": "lucene-sandbox-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-spatial3d:8.10.1",
+            "file": "lucene-spatial3d-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.lucene:lucene-suggest:8.10.1",
+            "file": "lucene-suggest-8.10.1.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.santuario:xmlsec:2.1.4",
+            "file": "xmlsec-2.1.4.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.tomcat.embed:tomcat-embed-core:8.5.68",
+            "file": "tomcat-embed-core-8.5.68.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.tomcat:tomcat-annotations-api:8.5.68",
+            "file": "tomcat-annotations-api-8.5.68.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.bouncycastle:bcpkix-jdk15on:1.64",
+            "file": "bcpkix-jdk15on-1.64.jar",
+            "licenses": [
+                {
+                    "name": "Bouncy Castle Licence",
+                    "url": "https://www.bouncycastle.org/licence.html"
+                }
+            ]
+        },
+        {
+            "name": "org.bouncycastle:bcprov-jdk15on:1.64",
+            "file": "bcprov-jdk15on-1.64.jar",
+            "licenses": [
+                {
+                    "name": "Bouncy Castle Licence",
+                    "url": "https://www.bouncycastle.org/licence.html"
+                }
+            ]
+        },
+        {
+            "name": "org.checkerframework:checker-qual:3.5.0",
+            "file": "checker-qual-3.5.0.jar",
+            "licenses": [
+                {
+                    "name": "The MIT License",
+                    "url": "http://opensource.org/licenses/MIT"
+                }
+            ]
+        },
+        {
+            "name": "org.codehaus.sonar:sonar-channel:4.2",
+            "file": "sonar-channel-4.2.jar",
+            "licenses": [
+                {
+                    "name": "GNU LGPL 3",
+                    "url": "http://www.gnu.org/licenses/lgpl.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.codehaus.sonar:sonar-classloader:1.0",
+            "file": "sonar-classloader-1.0.jar",
+            "licenses": [
+                {
+                    "name": "GNU LGPL 3",
+                    "url": "http://www.gnu.org/licenses/lgpl.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.codehaus.staxmate:staxmate:2.0.1",
+            "file": "staxmate-2.0.1.jar",
+            "licenses": [
+                {
+                    "name": "BSD",
+                    "url": "http://www.opensource.org/licenses/bsd-license.php"
+                }
+            ]
+        },
+        {
+            "name": "org.codehaus.woodstox:stax2-api:3.1.4",
+            "file": "stax2-api-3.1.4.jar",
+            "licenses": [
+                {
+                    "name": "The BSD License",
+                    "url": "http://www.opensource.org/licenses/bsd-license.php"
+                }
+            ]
+        },
+        {
+            "name": "org.codehaus.woodstox:woodstox-core-lgpl:4.4.1",
+            "file": "woodstox-core-lgpl-4.4.1.jar",
+            "licenses": [
+                {
+                    "name": "GNU Lesser General Public License (LGPL), Version 2.1",
+                    "url": "http://www.fsf.org/licensing/licenses/lgpl.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch.client:elasticsearch-rest-client:7.16.0",
+            "file": "elasticsearch-rest-client-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch.client:elasticsearch-rest-high-level-client:7.16.0",
+            "file": "elasticsearch-rest-high-level-client-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch.plugin:aggs-matrix-stats-client:7.16.0",
+            "file": "aggs-matrix-stats-client-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch.plugin:lang-mustache-client:7.16.0",
+            "file": "lang-mustache-client-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch.plugin:mapper-extras-client:7.16.0",
+            "file": "mapper-extras-client-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch.plugin:parent-join-client:7.16.0",
+            "file": "parent-join-client-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch.plugin:rank-eval-client:7.16.0",
+            "file": "rank-eval-client-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch:elasticsearch-cli:7.16.0",
+            "file": "elasticsearch-cli-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch:elasticsearch-core:7.16.0",
+            "file": "elasticsearch-core-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch:elasticsearch-geo:7.16.0",
+            "file": "elasticsearch-geo-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch:elasticsearch-lz4:7.16.0",
+            "file": "elasticsearch-lz4-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch:elasticsearch-plugin-classloader:7.16.0",
+            "file": "elasticsearch-plugin-classloader-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch:elasticsearch-secure-sm:7.16.0",
+            "file": "elasticsearch-secure-sm-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch:elasticsearch-x-content:7.16.0",
+            "file": "elasticsearch-x-content-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.elasticsearch:elasticsearch:7.16.0",
+            "file": "elasticsearch-7.16.0.jar",
+            "licenses": [
+                {
+                    "name": "Elastic License 2.0",
+                    "url": "https://raw.githubusercontent.com/elastic/elasticsearch/v7.16.0/licenses/ELASTIC-LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.hdrhistogram:HdrHistogram:2.1.9",
+            "file": "HdrHistogram-2.1.9.jar",
+            "licenses": [
+                {
+                    "name": "Public Domain, per Creative Commons CC0",
+                    "url": "http://creativecommons.org/publicdomain/zero/1.0/"
+                }
+            ]
+        },
+        {
+            "name": "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.21",
+            "file": "kotlin-stdlib-common-1.4.21.jar",
+            "licenses": [
+                {
+                    "name": "The Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+            "file": "kotlin-stdlib-1.4.21.jar",
+            "licenses": [
+                {
+                    "name": "The Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.jetbrains:annotations:13.0",
+            "file": "annotations-13.0.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.json:json:20201115",
+            "file": "json-20201115.jar",
+            "licenses": [
+                {
+                    "name": "The JSON License",
+                    "url": "http://json.org/license.html"
+                }
+            ]
+        },
+        {
+            "name": "org.lz4:lz4-java:1.8.0",
+            "file": "lz4-java-1.8.0.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.mindrot:jbcrypt:0.4",
+            "file": "jbcrypt-0.4.jar",
+            "licenses": [
+                {
+                    "name": "ISC",
+                    "url": "https://opensource.org/licenses/isc-license"
+                }
+            ]
+        },
+        {
+            "name": "org.mybatis:mybatis:3.5.6",
+            "file": "mybatis-3.5.6.jar",
+            "licenses": [
+                {
+                    "name": "The Apache Software License, Version 2.0",
+                    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.nanohttpd:nanohttpd:2.3.1",
+            "file": "nanohttpd-2.3.1.jar",
+            "licenses": [
+                {
+                    "name": "The BSD 3-Clause License",
+                    "url": "http://opensource.org/licenses/BSD-3-Clause"
+                }
+            ]
+        },
+        {
+            "name": "org.picocontainer:picocontainer:2.15",
+            "file": "picocontainer-2.15.jar",
+            "licenses": [
+                {
+                    "name": "BSD",
+                    "url": "LICENSE.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.postgresql:postgresql:42.3.3",
+            "file": "postgresql-42.3.3.jar",
+            "licenses": [
+                {
+                    "name": "BSD-2-Clause",
+                    "url": "https://jdbc.postgresql.org/about/license.html"
+                }
+            ]
+        },
+        {
+            "name": "org.slf4j:jul-to-slf4j:1.7.30",
+            "file": "jul-to-slf4j-1.7.30.jar",
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "http://www.opensource.org/licenses/mit-license.php"
+                }
+            ]
+        },
+        {
+            "name": "org.slf4j:slf4j-api:1.7.30",
+            "file": "slf4j-api-1.7.30.jar",
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "http://www.opensource.org/licenses/mit-license.php"
+                }
+            ]
+        },
+        {
+            "name": "org.sonarsource.update-center:sonar-update-center-common:1.23.0.723",
+            "file": "sonar-update-center-common-1.23.0.723.jar",
+            "licenses": [
+                {
+                    "name": "LGPL v.3",
+                    "url": "http://www.gnu.org/licenses/lgpl.txt"
+                }
+            ]
+        },
+        {
+            "name": "org.yaml:snakeyaml:1.26",
+            "file": "snakeyaml-1.26.jar",
+            "licenses": [
+                {
+                    "name": "Apache License, Version 2.0",
+                    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                }
+            ]
+        },
+        {
+            "name": "tanukisoft:wrapper:3.2.3",
+            "file": "wrapper-3.2.3.jar",
+            "licenses": [
+                {
+                    "name": "Tanuki Software license",
+                    "url": "http://wrapper.tanukisoftware.org/doc/english/license.html"
+                }
+            ]
+        }
+    ]
+}
