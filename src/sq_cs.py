@@ -28,6 +28,7 @@ class SonarQubeCs(object):
         with open(task_request_file, "r") as rf:
             task_request = json.load(rf)
         task_params = task_request["task_params"]
+        task_params["task_dir"] = task_request["task_dir"]
         return task_params
 
     def run(self):
