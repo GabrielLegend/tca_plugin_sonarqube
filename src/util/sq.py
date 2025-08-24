@@ -390,24 +390,39 @@ class SonarQube(object):
         return line
 
     class Process(object):
-        def __init__(self, command, cwd=None, out=None):
-            self.p = p(command, cwd=cwd, stdout=pi, stderr=sout)
-            self.out = out
-            if self.out:
-                def do():
-                    while self.p.poll() is None:
-                        out = self.p.stdout.readline()
-                        out = SonarQube.decode(out.strip())
-                        if out:
-                            self.out(out)
-                    out = SonarQube.decode(self.p.stdout.read())
-                    if out:
-                        self.out(out)
-                out_t = t(target=do)
-                out_t.start()
+        def __init__(self, command, cwd=None, out=None, err=None, shell=False):
+            # print(" ".join(command))
+            if shell : command = " ".join(command)
+            self.p = None
+            out_t = None
+            err_t = None
+            try:
+                self.p = p(command, cwd=cwd, stdout=pi, stderr=pi, shell=shell)
+                if out:
+                    out_t = t(target=self.do, args=(self.p.stdout, out))
+                    out_t.start()
+                if err:
+                    err_t = t(target=self.do, args=(self.p.stderr, err))
+                    err_t.start()
+            except Exception as e:
+                import traceback
+                traceback.print_exc()
+                if self.p: self.p.close()
+                if out_t: out_t.close()
+                if err_t: err_t.close()
 
         def wait(self):
-            self.p.wait()
+            if self.p: self.p.wait()
+
+        def do(self, pipe, callback=None):
+            while self.p.poll() is None:
+                out = pipe.readline()
+                out = bytes.decode(out)
+                if out:
+                    callback(out)
+            out = pipe.read()
+            if out:
+                callback(out)
 
     def _use_common_sonarqube(self):
         sq_user = SQ_COMMON_USER
@@ -779,15 +794,16 @@ class SonarQube(object):
         return result
 
     def run_cmd(self, command, cwd=None, cmd_type=None):
-        # print("[warning] run cmd: %s" % " ".join(command))
+        print("[warning] run cmd: %s" % " ".join(command))
         print("[warning] Start cmd...")
         p = SonarQube.Process(
             command,
             cwd,
-            self.__handle,
+            out=print,
+            err=self.__handle,
         )
         p.wait()
-        if p.p.returncode != 0:
+        if p.p == None or p.p.returncode != 0:
             if cmd_type == "compile":
                 self._raise_error(msg="编译失败，请确认编译命令正确，并查看log排查失败原因。", err_type=cmd_type)
             elif cmd_type == "analyze":
